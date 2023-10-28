@@ -5,10 +5,10 @@ import React from "react";
 
  function Nav() {
    return (
-    <div className="navigation">
+    <>
        <DesktopNav />
        <MobileNav />
-       </div>
+       </>
     );
  }
 
