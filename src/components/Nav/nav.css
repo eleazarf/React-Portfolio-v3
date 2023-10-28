@@ -1,0 +1,33 @@
+.navigation {
+    padding: 2em 2em;
+    position: fixed;
+  }
+  
+  .navigation > nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+  }
+  
+  .navigation > nav > a {
+    font-weight: 400;
+    font-size: 0.85em;
+    color: #224859;
+    text-decoration: none;
+    padding: 0.75em;
+  }
+  
+  .navigation > nav > a:hover {
+    text-decoration: none;
+    color: rgb(69, 209, 76);
+  }
+  
+  .active {
+    color: rgb(69, 209, 76);
+  }
+  
+  .mobile-nav {
+    display: none;
+  }
