@@ -32,7 +32,7 @@ function NavLinks(props) {
         <span className="nav-text">About</span>
       </NavLink>
       <NavLink
-        to="/portfolio"
+        to="/projects"
         activeclassname="active"
         onClick={() => {
           props.isMobile && props.closeMobileMenu();

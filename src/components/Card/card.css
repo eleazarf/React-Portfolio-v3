@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+.card {
+  font-family: "Ubuntu";
+  display: flex;
+  background-color: #224859;
+  flex-direction: column;
+  flex: 0 0 29%;
+  padding: 1%;
+  margin: 0.75em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.card-body > .card-links {
+  display: inline;
+  font-size: 1.2em;
+}
+
+.card-deployment {
+  color: #e85c46;
+}
+
+.card-deployment:hover {
+  color: rgb(69, 209, 76);
+}
+
+.card-github {
+  color: #e85c46;
+  padding-right: 0.3em;
+}
+
+.card-github:hover {
+  color: rgb(69, 209, 76);
+}
+
+.card:hover {
+  top: -10px;
+}
+
+.card-header {
+  color: #f6fff8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.card-body {
+  padding: 0.5em;
+  color: #f0ece7;
+  font-weight: 300;
+}
+
+.card-body > p {
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.technologies {
+  padding: 0.5em;
+  margin-top: 1.5em;
+  color: #f0ece7;
+  font-weight: 300;
+  font-style: italic;
+  font-size: small;
+  border-top: 0.5px solid #f0ece7;
+}
+
+.technologies > p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    flex: 0 0 40%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .card {
+    flex: 0 0 92%;
+  }
+}
