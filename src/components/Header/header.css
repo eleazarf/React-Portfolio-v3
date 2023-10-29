@@ -3,8 +3,8 @@ header {
     height: 100%;
   }
 
-@media only screen and (max-width: 768px) {
-    header {
+  @media only screen and (max-width: 821px) {
+      header {
       padding: 2em 2em;
       position: relative;
       display: flex;
