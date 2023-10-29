@@ -4,5 +4,35 @@
       "description": "My Work portfolio website, developed in React.",
       "github": "https://github.com/eleazarf/React-Portfolio-v2",
       "tech": "React, Node.js, JavaScript, HTML, CSS"
+    },
+    {
+      "name": "PWA-Text-Editor",
+      "description": "A downloadable progressive web application text editor called J.A.T.E.",
+      "github": "https://github.com/eleazarf/React-Portfolio-v2",
+      "tech": "React, Node.js, JavaScript, HTML, CSS"
+    },
+    {
+      "name": "NoSQL-Challenge-Social-Network-API",
+      "description": "Developed a MongoDB & Express-based social network backend enabling users to share thoughts, react to friends' posts, and manage friend lists.",
+      "github": "https://github.com/eleazarf/NoSQL-Challenge-Social-Network-API",
+      "tech": "Node.js, JavaScript, NoSQL, HTML, CSS"
+    },
+    {
+      "name": "E-commerce-Back-End",
+      "description": "Back end for an e-commerce site. Based on a working Express.js API and configured it to use Sequelize to interact with a MySQL database.",
+      "github": "https://github.com/eleazarf/E-commerce-Back-End",
+      "tech": "Node.js, JavaScript, MySQL, HTML, CSS"
+    },
+    {
+      "name": "Express.js-Challenge-Note-Taker",
+      "description": "This project introduces Note Taker, an app designed for creating, storing, and retrieving notes. Powered by Express.js on the backend, it manages note data via a JSON file. Furthermore, seamless deployment on Heroku is part of the project scope.",
+      "github": "https://github.com/eleazarf/Express.js-Challenge-Note-Taker",
+      "tech": "Express.js, JavaScript, HTML, CSS"
+    },
+    {
+      "name": "ProfessionalPortfolio",
+      "description": "My Work portfolio website, developed in html & css.",
+      "github": "https://github.com/eleazarf/PWA-Text-Editor",
+      "tech": "Node.js, JavaScript, HTML, CSS"
     }
   ]
