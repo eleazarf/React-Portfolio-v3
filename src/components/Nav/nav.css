@@ -1,5 +1,5 @@
 header {
-    padding: 2em 2em;
+    padding: 1.7em 1.7em;
     position: fixed;
   }
   
@@ -12,22 +12,31 @@ header {
   }
   
   header > nav > a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     font-weight: 400;
     font-size: 0.85em;
-    color: #224859;
+    color: #f0ece7;
     text-decoration: none;
     padding: 0.75em;
   }
   
   header > nav > a:hover {
     text-decoration: none;
-    color: rgb(69, 209, 76);
+    color: #e85c46;
   }
   
   active {
-    color: rgb(69, 209, 76);
+    text-decoration: none;
+    color: #e85c46;
   }
   
   mobile-nav {
     display: none;
+  }
+
+  header > nav > a > svg {
+    height: 2em;
+    padding-right: 0.5em;
   }
