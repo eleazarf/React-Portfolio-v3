@@ -1,0 +1,68 @@
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 2em;
+    padding-left: 1.3em;
+  }
+  
+  .contact-links > a {
+    margin-top: 2em;
+    font-size: 1.5em;
+    width: 60px;
+    height: 60px;
+    line-height: 62px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  }
+  
+  .contact-links > a:hover {
+    background-color: #fff;
+    color: #224859;
+  }
+  
+  .contact-links > a:hover:after {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  
+  .github-icon {
+    color: #f0ece7;
+  }
+  
+  .linkedin-icon {
+    color: #0e76a8;
+  }
+  
+  .envelope-icon {
+    color: #f0ece7;
+  }
+
+@media only screen and (max-width: 768px) {
+    .contact-links {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+      padding: 0;
+      bottom: auto;
+    }
+  
+    .contact-links > a {
+      margin-top: 0;
+      font-size: 2em;
+      padding: 0 1em 0 1em;
+      width: 20px;
+      height: 20px;
+      border-radius: 0;
+      line-height: 0;
+      background-color: #224859;
+    }
+  }

@@ -19,7 +19,7 @@ header {
     font-size: 0.85em;
     color: #f0ece7;
     text-decoration: none;
-    padding: 0.75em;
+    padding: 1em 0.75em 1em 0.75em;
   }
   
   header > nav > a:hover {
@@ -39,4 +39,61 @@ header {
   header > nav > a > svg {
     height: 2em;
     padding-right: 0.5em;
+  }
+
+@media only screen and (max-width: 768px) {
+    header > nav {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    header > nav > a {
+      font-size: 1.4em;
+    }
+  
+    .mobile-nav {
+      display: flex;
+      z-index: 3;
+    }
+  
+    .mobile-nav > nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 124px;
+      width: 100%;
+      height: 80vh;
+      background-color: #224859;
+    }
+  
+    .mobile-nav > nav > a {
+      text-decoration: none;
+      color: #f0ece7;
+      font-size: larger;
+      padding: 1em 0 1em 0;
+    }
+  
+    .mobile-nav > nav > a:hover {
+      color: rgb(69, 209, 76);
+    }
+  
+    .burger-icon {
+      font-size: 40px;
+      color: #f0ece7;
+    }
+    .mobile-nav > close-icon {
+      color: #f0ece7;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .mobile-nav > nav {
+      width: 101.8vw;
+      margin: -10%;
+      height: 759px;
+    }
   }
