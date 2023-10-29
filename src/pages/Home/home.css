@@ -55,7 +55,7 @@
   border-radius: 0.75em;
   padding: 1.5em 3em 1.5em 3em;
   box-shadow: 0 0.5em 1em #d39389;
-  /* transition: box-shadow 0.3s ease-in-out; */
+  cursor: pointer;
 }
 
 .contact-btn:hover {

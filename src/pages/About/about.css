@@ -1,0 +1,156 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+    color: #161f24;
+    line-height: 1.5em;
+    text-align: left;
+    list-style-position: inside;
+    padding: 17em 20em 0 20em;
+  }
+  
+  .about-heading {
+    font-family: "Averia Serif Libre";
+    color: #224859;
+    text-align: left;
+    padding: 10% 0 0 0;
+    font-style: italic;
+  }
+  
+  .my-image {
+    max-width: 300px;
+    height: auto;
+    border: #224859 solid 3px;
+    border-radius: 10px;
+    box-shadow: 0 1em 2em #224859;
+    margin-top: 3em;
+  }
+  
+  .future-research {
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+  }
+  
+  .skill-icon {
+    height: 2em;
+    margin-right: 1em;
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    .about-container {
+      padding: 20em 10em 0 10em;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .about-container {
+      padding: 20em 5em 0 10em;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .about-container {
+      grid-template-columns: 5fr;
+      padding: 2em 5em 0 8em;
+    }
+  
+    .about-heading {
+      padding-top: 0;
+    }
+  
+    .about-container > img {
+      order: -1;
+      align-items: center;
+    }
+  
+    .my-image {
+      max-width: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .about-container {
+      grid-template-columns: 5fr;
+      padding: 2em 5em 0 5em;
+    }
+  
+    .about-container > img {
+      order: -1;
+      align-items: center;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .about-container {
+      padding: 0 3em 0 3em;
+    }
+  
+    .my-image {
+      max-width: 75vw;
+    }
+    .skill-icon {
+      margin-bottom: 1em;
+    }
+  }
+  
+  .about-heading {
+    animation: transistionIn 0.75s;
+  }
+  
+  .about-content > p {
+    animation: transistionIn 1s;
+  }
+  
+  .about-content > ul > li:nth-child(1) {
+    animation: transistionIn 1s;
+  }
+  
+  .about-content > ul > li:nth-child(2) {
+    animation: transistionIn 1.5s;
+  }
+  
+  .about-content > ul > li:nth-child(3) {
+    animation: transistionIn 2s;
+  }
+  
+  .skills-icons {
+    animation: transistionIn 2s;
+  }
+  
+  .my-image {
+    animation: transistionUp 2s;
+  }
+  
+  @keyframes transistionIn {
+    from {
+      opacity: 0;
+  
+      transform: translate(-20%);
+    }
+  
+    to {
+      opacity: 1;
+  
+      transform: translate(0);
+    }
+  }
+  
+  @keyframes transistionUp {
+    from {
+      opacity: 0;
+  
+      margin-top: 100px;
+    }
+  
+    to {
+      opacity: 1;
+  
+      margin-top: 3em;
+    }
+  }

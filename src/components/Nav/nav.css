@@ -20,6 +20,7 @@ header {
     color: #f0ece7;
     text-decoration: none;
     padding: 1em 0.75em 1em 0.75em;
+    cursor: pointer;
   }
   
   header > nav > a:hover {
