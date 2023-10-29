@@ -45,13 +45,13 @@
     color: #f0ece7;
   }
 
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 821px) {
     .contact-links {
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
       position: relative;
-      padding: 0;
+      padding: 0 0 4% 0;
       bottom: auto;
     }
   

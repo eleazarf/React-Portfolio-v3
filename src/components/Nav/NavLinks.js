@@ -42,7 +42,7 @@ function NavLinks(props) {
         <span className="nav-text">Projects</span>
       </NavLink>
       <a
-        href=""
+        href="https://docs.google.com/document/d/1am0JOKXBAXGEix3o3CYpSGg_nvdyXvu6/edit?usp=sharing&ouid=105676665688643299754&rtpof=true&sd=true"
         target="__blank"
         onClick={() => {
           props.isMobile && props.closeMobileMenu();

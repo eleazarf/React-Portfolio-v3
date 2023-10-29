@@ -7,7 +7,7 @@ function Projects() {
   const [cardList] = useState(projectsData);
   return (
     <section className="my-work">
-      <h2>projects</h2>
+      <h2>Projects</h2>
       <div className="my-work-cards">
         {cardList.map((card) => {
           return (

@@ -81,7 +81,7 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 821px) {
   .card {
     flex: 0 0 40%;
   }
