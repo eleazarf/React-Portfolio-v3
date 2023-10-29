@@ -6,7 +6,7 @@ import {
   FingerPrintIcon,
   CodeIcon,
   DocumentTextIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/solid";
 
 function NavLinks(props) {
   return (
