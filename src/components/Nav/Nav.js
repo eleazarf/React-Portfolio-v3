@@ -1,15 +1,18 @@
+// Import necessary modules and styles
 import React from "react";
- import "./nav.css";
- import DesktopNav from "./DesktopNav";
- import MobileNav from "./MobileNav";
+import "./nav.css";
+import DesktopNav from "./DesktopNav"; // Import the 'DesktopNav' component
+import MobileNav from "./MobileNav"; // Import the 'MobileNav' component
 
- function Nav() {
+// Define the 'Nav' component
+function Nav() {
    return (
     <>
-       <DesktopNav />
-       <MobileNav />
+       <DesktopNav /> {/* Render the desktop navigation component */}
+       <MobileNav /> {/* Render the mobile navigation component */}
        </>
     );
  }
 
- export default Nav;
+// Export the 'Nav' component as the default export
+export default Nav;

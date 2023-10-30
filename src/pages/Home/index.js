@@ -1,8 +1,10 @@
+// Import necessary modules and styles
 import React from "react";
 import "./home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 
+// Define the 'Home' component
 function Home() {
   return (
     <section className="banner">
@@ -20,4 +22,5 @@ function Home() {
   );
 }
 
+// Export the 'Home' component as the default export
 export default Home;
